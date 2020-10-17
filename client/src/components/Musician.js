@@ -41,7 +41,7 @@ export default class MusicianAdmin extends Component {
                   onChange={this.onAddMusicianNameChange}
                 />
                 <p className="musician-id">id: { this.props.id }</p>
-                <button type="submit" 
+                <button disabled type="submit" 
                   className="button is-info is-small"
                   onClick={ this.handleEditSave }
                 >save</button>
